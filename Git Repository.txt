@@ -1,0 +1,14 @@
+# Initialize repo
+git init
+
+# Add remote repository (if you have one on GitHub)
+git remote add origin <your-repo-url>
+
+# Stage all changes
+git add .
+
+# Commit
+git commit -m "Initial commit"
+
+# Push to GitHub
+git push -u origin main
