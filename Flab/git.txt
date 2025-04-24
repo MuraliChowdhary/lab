@@ -1,0 +1,14 @@
+# Create a new folder for your project
+mkdir js-fsd-lab
+cd js-fsd-lab
+
+# Initialize git repo
+git init
+
+# Create a GitHub repo (online) then run:
+git remote add origin https://github.com/<your-username>/<repo-name>.git
+
+# Add your files
+git add .
+git commit -m "Initial commit - FSD Lab JS Programs"
+git push -u origin master
